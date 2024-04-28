@@ -1,6 +1,15 @@
 # Heart Failure Prediction using Neural Networks
 ## Project Objective
 Cardiovascular diseases are the leading cause of death globally, and early detection and management through machine learning can significantly improve outcomes. The model developed in this project assists in predicting the likelihood of death due to heart failure from various clinical parameters. 
+
+## Technical Requirements
+  - Python 3.9 or higher (must be compatible with TensorFlow
+  - Pands
+  - NumPy
+  - Matplotlib
+  - scikit-learn
+  - TensorFlow
+    
 ## Technical Description
 This project implements a neural network to predict the likelihood of mortality due to heart disease using a Kaggle dataset with 12 clinical predictors including age, anemia, and diabetes. Utilizing TensorFlow's Sequential modeling, the network comprises an input layer, a ReLU-activated hidden layer, and a softmax output layer tailored for classification tasks—outputting probabilities for mortality outcomes. The model was compiled with categorical crossentropy loss and the Adam optimizer, which together optimize the model's parameters to minimize prediction errors by efficiently navigating the problem's loss landscape and adjusting weights to reduce the discrepancy between predicted and actual outputs.
 
