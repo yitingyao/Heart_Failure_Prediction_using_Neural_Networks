@@ -71,9 +71,10 @@ model.add(Dense(12, activation='relu'))
 model.add(Dense(2, activation='softmax'))
 
 # Compile the model with the categorical crossentropy loss function, the Adam optimizer, and accuracy as a metric.
-# 'categorical_crossentropy' is a loss function that is used when there are two or more label classes.
-# The Adam optimizer is an algorithm for gradient-based optimization of stochastic objective functions.
-# Accuracy is used as a metric for monitoring the training and testing steps. It measures the model's performance based on the percentage of correctly predicted data points.
+# 'categorical_crossentropy' is a loss function that is used when there are two or more label classes. The Adam
+# optimizer is an algorithm for gradient-based optimization of stochastic objective functions. Accuracy is used as a
+# metric for monitoring the training and testing steps. It measures the model's performance based on the percentage
+# of correctly predicted data points.
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 # This trains the model with training data and labels, specifying the number of epochs and batch size, and display
