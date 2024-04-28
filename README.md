@@ -7,7 +7,7 @@ Cardiovascular diseases are the leading cause of death globally, and early detec
   - Pandas
   - NumPy
   - Matplotlib
-  - scikit-learn
+  - Scikit-learn
   - TensorFlow
     
 ## Technical Description
