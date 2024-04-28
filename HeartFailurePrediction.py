@@ -1,5 +1,5 @@
-# Import necessary libraries for data handling, preprocessing, and machine learning.
 # Written by: Yiting Yao
+# Import necessary libraries for data handling, preprocessing, and machine learning.
 import pandas as pd
 from sklearn.preprocessing import StandardScaler, LabelEncoder, Normalizer
 from sklearn.model_selection import train_test_split
@@ -18,7 +18,7 @@ data = pd.read_csv('heart_failure_clinical_records_dataset.csv')
 # DataFrame.info() method is used to provide a DataFrame column's datatype and number of non-null entries. This gives
 # an overview of a dataset
 print(data.info())
-# A Counter is a special type of dictionary provided by Python's collections module. It is used specifically for
+# Counter is a special type of dictionary provided by Python's collections module. It is used specifically for
 # counting elements from an iterable (like a list, tuple, or string). Each element from the iterable becomes a key in
 # the Counter dictionary, and the value for each key is the count of that element in the iterable. Here the instance
 # of counter class is used how many times each unique value appears in the 'death_event' column.
@@ -61,7 +61,7 @@ model = Sequential()
 # The input shape must match the shape of the data that will be fed to the model.
 model.add(InputLayer(shape=(X_train.shape[1],)))
 
-# A 'Dense' layer is a fully connected layer where each neuron receives input from all the neurons of the previous
+# 'Dense' layer is a fully connected layer where each neuron receives input from all the neurons of the previous
 # layer. 'ReLU' stands for Rectified Linear Unit and is a type of activation function that is commonly used in neural
 # networks.
 model.add(Dense(12, activation='relu'))
@@ -115,16 +115,3 @@ plt.title('Confusion Matrix')
 plt.xlabel('Predicted Label')
 plt.ylabel('True Label')
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
