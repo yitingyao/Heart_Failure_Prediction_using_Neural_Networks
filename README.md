@@ -21,7 +21,7 @@ The model's performance is gauged through several key indicators:
 * The F1-score is a harmonic mean of precision and recall, providing a single measure for test accuracy.
 
 ## Results
-The model's performance has an overall accuracy of 82%, thus it correctly predicts a large majority of the outcomes. In particular, the model is better at predicting non-events (true negatives), with a precision of 85% and a recall of 90%. However, it struggles more with correctly identifying events (true positives), with a precision of 75% and a recall of 64%, as shown in the classification report. Further model training in the future, such as hyperparameter could potentially enhance its accuracy. 
+The model's performance has an overall accuracy of 82%, thus it correctly predicts a large majority of the outcomes. In particular, the model is better at predicting non-events (true negatives), with a precision of 85% and a recall of 90%. However, it struggles more with correctly identifying events (true positives), with a precision of 75% and a recall of 64%, as shown in the classification report. Further model training in the future, such as hyperparameter tuning could potentially enhance its accuracy. 
 
 ## Data Sources
 
