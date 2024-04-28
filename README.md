@@ -3,7 +3,7 @@
 Cardiovascular diseases are the leading cause of death globally, and early detection and management through machine learning can significantly improve outcomes. The model developed in this project assists in predicting the likelihood of death due to heart failure from various clinical parameters. 
 
 ## Technical Requirements
-  - Python 3.9 or higher (must be compatible with TensorFlow
+  - Python 3.9 or higher (must be compatible with TensorFlow)
   - Pands
   - NumPy
   - Matplotlib
