@@ -1,4 +1,5 @@
 # Import necessary libraries for data handling, preprocessing, and machine learning.
+# Written by: Yiting Yao
 import pandas as pd
 from sklearn.preprocessing import StandardScaler, LabelEncoder, Normalizer
 from sklearn.model_selection import train_test_split
