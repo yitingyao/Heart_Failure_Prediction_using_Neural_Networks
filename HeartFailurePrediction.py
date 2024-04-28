@@ -23,7 +23,7 @@ print(data.info())
 # the Counter dictionary, and the value for each key is the count of that element in the iterable. Here the instance
 # of counter class is used how many times each unique value appears in the 'death_event' column.
 print('Classes and number of values in the dataset', Counter(data['death_event']))
-# Extracts the column "death_event" from the DataFrame data and sets it to target varaible "y"
+# Extracts the column "death_event" from the DataFrame data and sets it to target variable "y"
 y = data["death_event"]
 # Extracts the relevant feature columns for the model and assign them to DataFrame x.
 x = data[
@@ -77,9 +77,8 @@ model.add(Dense(2, activation='softmax'))
 # of correctly predicted data points.
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
-# This trains the model with training data and labels, specifying the number of epochs and batch size, and display
-# verbose output. An epoch is one complete presentation of the data set to be learned to a learning machine. The
-# batch size is the number of training examples utilized in one iteration.
+# This trains the neural network model over 100 iterations of the dataset, processing 16 samples per batch,
+# while allowing incremental learning and weight updates.
 model.fit(X_train, Y_train, epochs=100, batch_size=16, verbose=1)
 
 # Evaluate the model on the test data and print the loss and accuracy.
