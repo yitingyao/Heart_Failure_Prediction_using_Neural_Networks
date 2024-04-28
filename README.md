@@ -4,7 +4,7 @@ Cardiovascular diseases are the leading cause of death globally, and early detec
 
 ## Technical Requirements
   - Python 3.9 or higher (must be compatible with TensorFlow)
-  - Pands
+  - Pandas
   - NumPy
   - Matplotlib
   - scikit-learn
